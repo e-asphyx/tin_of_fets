@@ -213,6 +213,10 @@
 <pad name="SW2" x="-8.75" y="2.5" drill="1.1" diameter="1.9304"/>
 <pad name="SW1" x="-8.75" y="-2.5" drill="1.1" diameter="1.9304"/>
 </package>
+<package name="PAD-NO-THERMAL">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.4224" thermals="no"/>
+<text x="-1.27" y="1.27" size="0.6096" layer="25" ratio="15">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DUMMY">
@@ -250,6 +254,11 @@
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="PAD">
+<pin name="P$1" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<circle x="0" y="0" radius="1.27" width="0.6096" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -295,6 +304,21 @@
 <connect gate="B" pin="S" pad="R2.2"/>
 <connect gate="SW" pin="1" pad="SW1"/>
 <connect gate="SW" pin="2" pad="SW2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAD-NO-THERMAL" prefix="J">
+<gates>
+<gate name="G$1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-NO-THERMAL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4831,10 +4855,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2" value="10uF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="J3" library="my" deviceset="PAD-NO-THERMAL" device=""/>
+<part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="J6" library="my" deviceset="PAD-NO-THERMAL" device=""/>
+<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="66.04" y="175.26" size="1.778" layer="97">Handwire bypass cap here</text>
+<text x="185.42" y="175.26" size="1.778" layer="97">Handwire bypass cap here</text>
 </plain>
 <instances>
 <instance part="A2" gate="G$1" x="266.7" y="25.4"/>
@@ -4913,6 +4943,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C6" gate="G$1" x="139.7" y="162.56"/>
 <instance part="GND11" gate="1" x="139.7" y="154.94"/>
 <instance part="SUPPLY8" gate="G$1" x="139.7" y="165.1"/>
+<instance part="J3" gate="G$1" x="121.92" y="175.26"/>
+<instance part="GND16" gate="1" x="121.92" y="167.64"/>
+<instance part="J6" gate="G$1" x="238.76" y="175.26"/>
+<instance part="GND17" gate="1" x="238.76" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -5021,6 +5055,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <pinref part="C6" gate="G$1" pin="-"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="P$1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="P$1"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$6" class="0">
