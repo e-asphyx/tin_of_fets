@@ -5705,134 +5705,11 @@ naming: grid - package width</description>
 <wire x1="-3.3" y1="1.7" x2="-6.3" y2="1.7" width="0.127" layer="21"/>
 <wire x1="-6.3" y1="1.7" x2="-6.3" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="-6.3" y1="-1.9" x2="-3.3" y2="-1.9" width="0.127" layer="21"/>
-<pad name="RING1" x="2.5" y="-1.85" drill="1.2" diameter="2.1844"/>
-<pad name="RING2" x="2.5" y="1.85" drill="1.2" diameter="2.1844"/>
+<pad name="TIP2" x="2.5" y="-1.85" drill="1.2" diameter="2.1844"/>
+<pad name="TIP1" x="2.5" y="1.85" drill="1.2" diameter="2.1844"/>
 <pad name="SHIELD" x="-2.4" y="0" drill="1.2" diameter="1.9304"/>
-<pad name="TIP" x="4.5" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="RING" x="4.5" y="0" drill="1.2" diameter="2.1844"/>
 <hole x="0" y="0" drill="1.2"/>
-</package>
-<package name="AUDIO-JACK">
-<wire x1="7.5" y1="6" x2="7.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="-4.5" x2="-3.5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="4.5" x2="-4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="-3" x2="-4.5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="-4.5" x2="-3.5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="4.5" x2="-3.5" y2="4.5" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="3" x2="-6.5" y2="-3" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="-3" x2="-4.5" y2="-3" width="0.2032" layer="51"/>
-<wire x1="-6.5" y1="3" x2="-4.5" y2="3" width="0.2032" layer="51"/>
-<wire x1="-3.5" y1="6" x2="3.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="6" x2="6.5" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="6" x2="-3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-6" x2="3.5" y2="-6" width="0.2032" layer="21"/>
-<wire x1="7.5" y1="-6" x2="6.5" y2="-6" width="0.2032" layer="21"/>
-<pad name="SLEEVE" x="0" y="0" drill="1.3" diameter="2.1844"/>
-<pad name="RSH" x="5" y="2.5" drill="1.3" diameter="2.1844"/>
-<pad name="RING" x="5" y="5" drill="1.3" diameter="2.1844"/>
-<pad name="TSH" x="5" y="-2.5" drill="1.3" diameter="2.1844"/>
-<pad name="TIP" x="5" y="-5" drill="1.3" diameter="2.1844"/>
-<text x="-1.27" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="1.27" size="0.4064" layer="27">&gt;VALUE</text>
-<hole x="0" y="5" drill="1.2"/>
-<hole x="-2.5" y="5" drill="1.2"/>
-<hole x="-2.5" y="-5" drill="1.2"/>
-<hole x="0" y="-5" drill="1.2"/>
-<hole x="5" y="0" drill="1.2"/>
-</package>
-<package name="STEREOJACK2.5MM_SPECIAL_HOLES-ONLY">
-<wire x1="4.6" y1="2.5" x2="-3.3" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="2.5" x2="-3.3" y2="1.7" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="1.7" x2="-3.3" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-1.9" x2="-3.3" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-2.6" x2="4.6" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="4.6" y1="-2.6" x2="4.6" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="4.6" y1="1.5" x2="4.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="1.7" x2="-6.3" y2="1.7" width="0.127" layer="21"/>
-<wire x1="-6.3" y1="1.7" x2="-6.3" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-6.3" y1="-1.9" x2="-3.3" y2="-1.9" width="0.127" layer="21"/>
-<pad name="RING1" x="2.5" y="-1.85" drill="0.889" diameter="0.8128" rot="R270"/>
-<pad name="RING2" x="2.5" y="1.85" drill="0.889" diameter="0.8128" rot="R90"/>
-<pad name="SHIELD" x="-2.4" y="0" drill="0.889" diameter="0.8128" rot="R180"/>
-<pad name="TIP" x="4.5" y="0" drill="0.889" diameter="0.8128"/>
-<hole x="0" y="0" drill="0.889"/>
-<hole x="-2.4" y="0" drill="1.4732"/>
-<hole x="2.5" y="1.85" drill="1.4732"/>
-<hole x="4.5" y="0" drill="1.4732"/>
-<hole x="2.5" y="-1.85" drill="1.4732"/>
-</package>
-<package name="STEREOJACK2.5MM_SMD">
-<wire x1="-1.5" y1="0" x2="-1.5" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1.3" x2="-1.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="-0.35" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="0" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-2.5" x2="-0.4" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="2.25" y1="2.5" x2="4.95" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="-2.5" x2="4.95" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.3" x2="-1.5" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-2.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.3" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="6.9" y1="2.5" x2="7.9" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="7.9" y1="2.5" x2="7.9" y2="1.05" width="0.2032" layer="21"/>
-<wire x1="6.95" y1="-2.5" x2="7.9" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="7.9" y1="-2.5" x2="7.9" y2="-1" width="0.2032" layer="21"/>
-<smd name="5" x="1" y="2.85" dx="2" dy="2.3" layer="1"/>
-<smd name="A" x="1" y="-2.85" dx="2" dy="2.3" layer="1"/>
-<smd name="4" x="6" y="-2.25" dx="2.1" dy="1.5" layer="1" rot="R90"/>
-<smd name="1" x="6" y="2.25" dx="2.1" dy="1.5" layer="1" rot="R90"/>
-<smd name="3" x="8.55" y="0" dx="2.1" dy="1.5" layer="1" rot="R180"/>
-<text x="-1" y="-6" size="1.016" layer="27">&gt;Value</text>
-<text x="-1" y="5" size="1.016" layer="25">&gt;Name</text>
-<hole x="0" y="0" drill="1.2"/>
-<hole x="4" y="0" drill="1.2"/>
-</package>
-<package name="AUDIO-JACK-3.5MM-SMD">
-<wire x1="3.9" y1="-3" x2="10.2" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="-0.635" x2="14.5" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="-3" x2="13.2" y2="-3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="2.2098" x2="14.5" y2="3" width="0.254" layer="21"/>
-<wire x1="14.5" y1="3" x2="5.7" y2="3" width="0.254" layer="21"/>
-<wire x1="0.5" y1="3" x2="0" y2="3" width="0.254" layer="51"/>
-<wire x1="0" y1="3" x2="0" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="0" y1="-2.5" x2="0" y2="-3" width="0.254" layer="51"/>
-<wire x1="0" y1="-3" x2="1" y2="-3" width="0.254" layer="51"/>
-<wire x1="-0.1524" y1="2.5" x2="-2.5" y2="2.5" width="0.254" layer="51"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.254" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="0" y2="-2.5" width="0.254" layer="51"/>
-<smd name="SLEEVE" x="2.4" y="-3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="TIP" x="11.7" y="-3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="RING" x="4.3" y="3.45" dx="2" dy="2.5" layer="1"/>
-<smd name="TSH" x="15.75" y="0.75" dx="2" dy="2.5" layer="1" rot="R90"/>
-<smd name="RSH" x="1.5" y="3.45" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<hole x="3.5" y="0" drill="2"/>
-<hole x="10.5" y="0" drill="2"/>
-<text x="6.35" y="3.81" size="0.8128" layer="25" font="vector">&gt;Name</text>
-<text x="6.35" y="1.27" size="0.8128" layer="27" font="vector">&gt;Value</text>
-</package>
-<package name="STEREOJACK2.5MM">
-<wire x1="-1.5" y1="1.3" x2="-1.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="-0.096" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1.3" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-1.3" x2="-1.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-2.5" x2="-0.1206" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="1.996" y1="2.5" x2="5.0516" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="2.073" y1="-2.5" x2="5.077" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.3" x2="-1.5" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.3" x2="-2.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.3" x2="-1.5" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="6.773" y1="2.5" x2="7.9" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="7.9" y1="2.5" x2="7.9" y2="0.9738" width="0.2032" layer="21"/>
-<wire x1="6.8484" y1="-2.5" x2="7.9" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="7.9" y1="-2.5" x2="7.9" y2="-0.873" width="0.2032" layer="21"/>
-<smd name="5" x="1" y="2.9516" dx="1.4666" dy="2.3" layer="1"/>
-<smd name="A" x="1.016" y="-2.9516" dx="1.4666" dy="2.3" layer="1"/>
-<smd name="4" x="5.9492" y="-2.54" dx="2.1" dy="1.119" layer="1" rot="R90"/>
-<smd name="1" x="5.8984" y="2.54" dx="2.1" dy="1.1444" layer="1" rot="R90"/>
-<smd name="3" x="8.55" y="0" dx="1.9984" dy="1.1698" layer="1" rot="R180"/>
-<hole x="0" y="0" drill="1.2"/>
-<hole x="4" y="0" drill="1.2"/>
 </package>
 </packages>
 <symbols>
@@ -5863,67 +5740,11 @@ Variant PTH is our storefront SKU PRT-08032</description>
 <gate name="G$1" symbol="AUDIO-JACK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PTH" package="AUDIO-JACK">
-<connects>
-<connect gate="G$1" pin="LEFT" pad="TIP"/>
-<connect gate="G$1" pin="RIGHT" pad="RING"/>
-<connect gate="G$1" pin="SLEEVE" pad="SLEEVE"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="2.5MM" package="STEREOJACK2.5MM_STEREOJACK2.5MM">
 <connects>
-<connect gate="G$1" pin="LEFT" pad="TIP"/>
-<connect gate="G$1" pin="RIGHT" pad="RING1 RING2"/>
-<connect gate="G$1" pin="SLEEVE" pad="SHIELD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HOLESONLY" package="STEREOJACK2.5MM_SPECIAL_HOLES-ONLY">
-<connects>
-<connect gate="G$1" pin="LEFT" pad="TIP"/>
-<connect gate="G$1" pin="RIGHT" pad="RING1 RING2"/>
-<connect gate="G$1" pin="SLEEVE" pad="SHIELD"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SJ1-2503A"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD" package="STEREOJACK2.5MM_SMD">
-<connects>
-<connect gate="G$1" pin="LEFT" pad="1"/>
-<connect gate="G$1" pin="RIGHT" pad="4"/>
-<connect gate="G$1" pin="SLEEVE" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-10062" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SMD2" package="AUDIO-JACK-3.5MM-SMD">
-<connects>
-<connect gate="G$1" pin="LEFT" pad="TIP"/>
+<connect gate="G$1" pin="LEFT" pad="TIP1 TIP2"/>
 <connect gate="G$1" pin="RIGHT" pad="RING"/>
-<connect gate="G$1" pin="SLEEVE" pad="SLEEVE"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-10353"/>
-</technology>
-</technologies>
-</device>
-<device name="1:1" package="STEREOJACK2.5MM">
-<connects>
-<connect gate="G$1" pin="LEFT" pad="1"/>
-<connect gate="G$1" pin="RIGHT" pad="4"/>
-<connect gate="G$1" pin="SLEEVE" pad="5"/>
+<connect gate="G$1" pin="SLEEVE" pad="SHIELD"/>
 </connects>
 <technologies>
 <technology name=""/>
