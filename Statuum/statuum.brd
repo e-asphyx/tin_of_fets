@@ -1140,8 +1140,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44.45" y="29.845" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="49.911" y="28.321" size="0.8128" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="H1" library="holes" package="3,2-PAD" value="MOUNT-PAD-ROUND3.2" x="5.715" y="74.93"/>
-<element name="H2" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="94.615" y="71.12"/>
+<element name="H1" library="holes" package="3,2-PAD" value="MOUNT-PAD-ROUND3.2" x="5.08" y="75.565"/>
+<element name="H2" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="95.25" y="71.12"/>
 </elements>
 <signals>
 <signal name="N$1">
