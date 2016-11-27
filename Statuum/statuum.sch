@@ -6504,7 +6504,7 @@ grid 2.3 mm, vertical</description>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="680"/>
 <part name="R2" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="3.3k"/>
-<part name="R3" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="100k"/>
+<part name="R3" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="1.2k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R8" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
@@ -6539,7 +6539,7 @@ grid 2.3 mm, vertical</description>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="680"/>
 <part name="R18" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="3.3k"/>
-<part name="R19" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="100k"/>
+<part name="R19" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="1.2k"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R24" library="my-res" deviceset="RESISTOR" device="PTH-1/4W" value="100"/>
